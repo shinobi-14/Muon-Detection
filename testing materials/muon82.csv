@@ -1,0 +1,75 @@
+components,package,,1
+1.5uH,603,,1
+AMS 3.3 ,,,1
+TPS63030,,,1
+35.7K,603,,
+AMS 5,,,
+1uF,805,,
+MCP16311,,,
+1.5uH power inductor,,,
+56K,805,,
+10uF,805,,
+22uH power inductor,,,
+,,,
+,,,
+220 ohms,805,,BESSV2
+4.7K,805,,BESSV2
+10K,805,,BESSV2
+1N4007 ,,,BESSV2
+6pF,603,,
+10uF,805,,
+100nF,805,,
+22uF,805,,
+dual mosfet P,,,
+AMS 3.3,,,
+5.1K,805,,
+7.5nH,402,,
+power usb c,,,
+ams 5,,,
+1uF,805,,
+0.1uF,805,,
+,,,
+1.2K,805,,PDB
+3.3uH power inductor,,,PDB
+20K,805,,PDB
+54.9K,603,,PDB
+12k,603,,
+0 ohms,805,,
+130 ohms,805,,
+100 ohms,805,,
+10K,805,,
+0.1uF,603,,
+0.1uF,805,,
+10uF,805,,
+blue led,805,,
+red led,805,,
+10uF,1206,,
+22uF,1206,,
+1K,805,,
+esp32 c6,,,
+battery charging board,,,
+switches ,,,
+,,,
+,,,
+INSPACE BOX - untouched,,,
+,,,
+2.2uF,603,,SHROTA v2
+type c power,,,SHROTA v2
+ESD diode,DO214AA,,SHROTA v2
+100nF,603,,SHROTA v2
+1K,603,,
+4.7K,603,,
+22uF,603,,
+22 ohms,603,,
+5.1K,603,,
+HT7833 LDO 3.3 SOT-235,,,
+6.5pF,603,,
+7.5uH,402,,
+1.5uH,603,,
+10K,603,,
+10uF,603,,
+antenna 915MHz,,,
+HT7833 LDO 3.3 SOT-89 3,,,
+Diodes 1n4007ws,,,
+ws2812b,,,
+female to sma ,,,
