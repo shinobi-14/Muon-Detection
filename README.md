@@ -1,7 +1,7 @@
 # Muon-Detection
 Muon-Detection, an independent subsystem of Project STRIVE developed for the SDL Payload Challenge, serves as a payload on the sounding rocket Airavata in IREC 2025.
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d4e2f2aa-2ff0-476b-a0a3-ba860b8dfd21" width="65%" />
+  <img src="https://github.com/user-attachments/assets/872929f0-4386-4d19-a50f-22ae9239c387" width="65%" />
 </div>
 
 The Muon-Detection system incorporates a commercial and a student-designed 3D-printed scintillator (developed in collaboration with IIT Roorkee) to measure muon flux along the rocket's trajectory, enabling performance comparison and supporting real-time tomography simulations for potential non-destructive testing during sonic and supersonic flight.
@@ -9,7 +9,7 @@ The Muon-Detection system incorporates a commercial and a student-designed 3D-pr
 ## Detector Architecture
 #### 1. Commercial Scintillator Setup
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/a4539032-57fd-46e9-a406-fab58e726042" width="45%" />
+  <img src="https://github.com/user-attachments/assets/6c03538a-6122-42e7-848a-6ecff6263e46" width="45%" />
 </div>
     
 - Scintillator: BC-408 plastic scintillator (known for its high light yield and fast decay time)
