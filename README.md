@@ -42,7 +42,7 @@ Additionally, the PCB provides stable biasing and reliable signal routing to the
 ## Repo Structure
 The PCB was designed entirely in EasyEDA. I've included the design files, 3D files, gerber, schematic, test codes, media files and testing materials.
 
-To replicate or explore this project, download the repository files and open them in EasyEDA, ensuring all file paths are correctly linked
+To replicate or explore this project, download the repository files and open them in EasyEDA, ensuring all file paths are correctly linked.
     
 	1. 3D_files
 		a. SIPM main PCB | SIPM small PCB
@@ -75,6 +75,46 @@ To replicate or explore this project, download the repository files and open the
 		
 	7. testing materials
 		Contains test records, analysis, and performance evaluation of commercial and 3D-printed scintillators.
-	
+
+ ## Components Used
+ - AFBR-S4N33C013 SiPM (Silicone Photomultiplier)
+ - BC-408 (Plastic Scintillator)
+ - 3D-printed Scintillator
+ - MIC2288 (DC-DC Boost Converter @ 33V)
+ - DS3231 (Real Time Clock)
+ - OPA356 (Operational Amplifier)
+ - XT30 (Overload connector @ 30A)
+ - SD Card Reader module
+ - ESP32 C3 (32bit-microcontroler)
+ - HT7833 (LDO Regulator @ 3.3V) - Redundant
+ - AMS1117 (LDO Regulator @ 5V) - Redundant
+ - CP2102 (UART Interface)
+ - TPS56321 (Switching regulator @ 3.3V | @ 5V)
+
+## Key Takeaways
+1. It is not possible to couple two scintillators together, as there will be an immense amount of light loss at the boundary. 
+2. This is the same region where we require large single crystals instead of smaller crystals coupled together. 
+3. The scintillator can be coupled to the SiPM using optical-grade silicone gel/glue provided by companies such as Eljen (EJ-550, EJ-552) or Epic crystals.
+4. There is a degradation of the additively manufactured scintillator with time. 
+5. With temperature fluctuations, the scintillator could potentially lose its scintillation effect and overall effectiveness.
+6. The PCB for the payload is designed for signal integrity, but the efficient functioning of the system in the scope of sounding rocket flight might be affected by the level of EM interference in the PCB. Therefore, readings might get affected due to this.
+7. The muon detection system relies on the duration during which the rocket descends. There is a potential problem where the system can work efficiently only while it is at a specific altitude for a specific period of time.
+8. While testing, I noticed that for BC-408 and 8.2 mm, squiggles are fewer compared to 3.9 mm and 6.2 mm. As the width increases, properly distinct peaks can be observed, which means thicker the sample, the farther the particle can penetrate through, so more efficient production of photons.
+
+## Reference Materials 
+- [SiPM Datasheet](https://www.farnell.com/datasheets/3096135.pdf?_gl=1*1ttkvz9*_gcl_au*MTI4NTU5OTYwNS4xNzQzNzAwNDU1)
+- [OPA356 Datasheet](https://www.ti.com/lit/ds/symlink/opa356.pdf?ts=1746455532552&ref_url=https%253A%252F%252Fwww.google.com%252F)
+- [Peak Detection Circuit](https://www.youtube.com/watch?v=w4531AVjBYY) (Highly Recommended)
+- [britishastronomical Youtube](https://www.youtube.com/watch?v=j74CbXHByrY)
+- [Front-end Electronics for SiPM](https://physicsopenlab.org/2017/11/28/front-end-electronics-for-sipm/)
+- [Cosmic Watch Muon-Detector](https://github.com/spenceraxani/CosmicWatch-Desktop-Muon-Detector-v2/blob/master/PCB_Files/callibration.pdf) (Highly Recommended)
+- [RD-Gammaspectra](https://www.youtube.com/watch?v=t7-f01MC4a4&t=58s) (Highly Recommended)
+- [Current to Voltage Converotr](https://ecstudiosystems.com/discover/textbooks/basic-electronics/operational-amplifiers/current-to-voltage-converter/)
+- [Mini SIPM Driver Board](https://hackaday.io/project/188090-mini-sipm-driver-board)
+- [Muon Tomography Simulation](https://github.com/dimitra97/MuonTomographySimulation)
+- [ComSAD](https://ar5iv.labs.arxiv.org/html/2110.12500)
+- [Data acquisition system for the readout of SiPM arrays](https://ieeexplore.ieee.org/abstract/document/6829735) (Highly Recommended)
+
+Author: Prithvi Raj Singh (shinobi-14)
 
 
