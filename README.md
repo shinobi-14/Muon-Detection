@@ -38,3 +38,43 @@ SiPM output signals are typically weak, so this PCB includes a carefully designe
 The amplifier matches the SiPM’s voltage and current characteristics, ensuring a clean, low-noise signal that maintains the peak amplitude of fast analog pulses for accurate processing by the onboard microcontroller. 
 
 Additionally, the PCB provides stable biasing and reliable signal routing to the data acquisition system, making it a critical component of the payload’s detection and readout chain.
+
+## Repo Structure
+The PCB was designed entirely in EasyEDA. I've included the design files, 3D files, gerber, schematic, test codes, media files and testing materials.
+
+To replicate or explore this project, download the repository files and open them in EasyEDA, ensuring all file paths are correctly linked
+    
+	1. 3D_files
+		a. SIPM main PCB | SIPM small PCB
+			- .mtl & .obj 3D exports for 3D visualization and mechanical fit checks.
+	
+	2. Design_Files 
+		a. SIPM main PCB | SIPM small PCB
+			i. Altium_Design_files - Exports from EasyEDA for Altium compatibility.
+			ii. Autorouter_files - Auto-generated routing results.
+			iii. EasyEDA_Design_files - Original PCB designs.
+			iv. Export_Netlist_files - Netlists for simulation and validation.
+		
+	3. Fabrication_files 
+		a. SIPM main PCB | SIPM small PCB
+			i. Gerber files - Standard files for PCB manufacturing.
+			ii. BOMs.csv - List all components used in this project.
+			iii. PickAndPlace.csv - Data for automated assembly.
+		
+	4. PCBs
+		a. SIPM main PCB | SIPM small PCB
+			i. schematic.pdf - Readable schematic.
+			ii. schematic.svg - Scalable/vector schematic.
+	
+	5.  media
+		a. images - Renders, test setups, and PCB visuals.
+		b. testing videos - Muon-Detection tests under different conditions.
+		
+	6. test codes
+		All the test codes used during testing.
+		
+	7. testing materials
+		Contains test records, analysis, and performance evaluation of commercial and 3D-printed scintillators.
+	
+
+
