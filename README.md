@@ -61,7 +61,7 @@ To replicate or explore this project, download the repository files and open the
 			ii. BOMs.csv - List all components used in this project.
 			iii. PickAndPlace.csv - Data for automated assembly.
 		
-	4. PCBs
+	4. Schematics
 		a. SIPM main PCB | SIPM small PCB
 			i. schematic.pdf - Readable schematic.
 			ii. schematic.svg - Scalable/vector schematic.
