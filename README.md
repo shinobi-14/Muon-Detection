@@ -26,7 +26,7 @@ The Muon-Detection system incorporates a commercial and a student-designed 3D-pr
 - Scintillator Fabrication: Used an acrylate photo-curing monomer with aromatic rings as the base matrix.
 - 3D Printing Process: Added a small amount of BAPO photo-initiator, poured the mixture into the 3D-printer VAT, and printed 100 µm layers sequentially (on top of each other) to form the final structure.
 
-## SiPM PCB
+## SiPM Main PCB
 The SiPM PCB is designed to interface with Silicon Photomultipliers (SiPMs) for detecting scintillation events. 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/df9995d7-597a-487e-8034-6f9907c64b21" width="45%" />
