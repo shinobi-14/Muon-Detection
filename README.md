@@ -85,7 +85,7 @@ To replicate or explore this project, download the repository files and open the
  - OPA356 (Operational Amplifier)
  - XT30 (Overload connector @ 30A)
  - SD Card Reader module
- - ESP32 C3 (32bit-microcontroler)
+ - ESP32 C3 (32bit-microcontroller)
  - HT7833 (LDO Regulator @ 3.3V) - Redundant
  - AMS1117 (LDO Regulator @ 5V) - Redundant
  - CP2102 (UART Interface)
